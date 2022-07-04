@@ -7,4 +7,4 @@ dentro de git bash ejecutar:
 2-pedirá crear una frase de contraseña y dara una ruta donde se crea la carpeta ".ssh" donde esta el archivo: "id.pub"
 3-abrir el archivo con extension .pub , copiar el codigo (es el codigo de key)
 4-ir a github y en el apartado SSh and Keys- agregar ese codigo en new SSH key
-https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent 
