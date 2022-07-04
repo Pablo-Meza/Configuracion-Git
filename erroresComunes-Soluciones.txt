@@ -1,4 +1,4 @@
 errores comunes:
--modificar carpeta que escucha git:
+-modificar carpeta que compromete la ruta que escucha git:
 esto hace que se desincronice git con nuestro repositorio de git hub, una solucion es reiniciar git init y luego ejecutar
 git pull --rebase , luego git push -u origin master
