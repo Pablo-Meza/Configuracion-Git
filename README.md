@@ -3,7 +3,7 @@
 - Como configurar Git;
 - Como utilizar los comandos y ramas;
 - Como crear cuenta y repositorio en GitHub;
-- Como crear y agregar clase SSH;
+- Como crear y agregar clave SSH;
 - Ejemplos de readme;
 
 # Editor.md
