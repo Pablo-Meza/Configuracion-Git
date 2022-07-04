@@ -1,0 +1,20 @@
+configuracion global
+usuario e email:
+-git config user.name "nombre de usuario" -(definimos nombre de usuario)
+-git config user.name
+
+agregar commits, agregar eliminar y unir ramas:
+git status (muestra si hay commits agregados, en verde para enviar)
+git add .
+git commit -m "primer archivo" (comenta el commit con un nombre como registro) 
+-git rm --cached archivo.html  (deshace al commit, vuelve un paso atras y con "." vuelve todas las modificaciones commitiadas)
+*se crea el archivo".gitignore" (ignora todo lo que configuremos,se escribe cada linea cada archivo que queremos que se ignore o "*.pdf", por ejemplo ignoraria todos los pdf-ver archivo ejemplo dentro de esta carpeta)
+-git log (muestra los commits-el autor-la fecha)
+-git log --stat (estadisticas)
+-gitlog --oneline(muestra en una sola linea de modo reducido-solo el numero identificador )
+-git checkout "ACA PONEMOS IDENTIFICADOR DEL COMMIT sin las comillas" (podemos volver a recuperar el commit que deseamos, solo debemos poner el correcto identificador de dicha version)
+-git branch (muestra la rama en la que se esta trabajando actualmente)
+-git checkout (master) (se escribe sin parentesis, allí va el nombre de la rama a la que deseamos cambiar)
+-git checkout -b NOMBRE DE RAMA NUEVA (crea rama nueva)
+-git merge NOMBRE DE RAMA QUE QUEREMOS UNIR A LA MASTER/PRINCIPAL (para unir las ramas debemos ir a la rama master con "git check out master" y luego ejecutar dicho comando)
+-git branch -d NOMBRE DE RAMA (eliminamos la rama que ya no usamos)
